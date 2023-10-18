@@ -27,6 +27,18 @@ export default function HomeScreen({ navigation }) {
       id: "58694a0f-3da1-471f-bd96-145571e29d72",
       title: "Third Item",
     },
+    {
+      id: "58694a0f-3da1-471f-bd96-145571e29d72",
+      title: "Fourth Item",
+    },
+    {
+      id: "58694a0f-3da1-471f-bd96-145571e29d72",
+      title: "Fifth Item",
+    },
+    {
+      id: "58694a0f-3da1-471f-bd96-145571e29d72",
+      title: "Sixth Item",
+    },
   ];
 
   function gotoProfile() {
@@ -47,7 +59,7 @@ export default function HomeScreen({ navigation }) {
         <Image
           style={styles.avatar}
           source={{
-            uri: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+            uri: "https://reactnative.dev/img/tiny_logo.png",
           }}
         />
       </TouchableOpacity>
